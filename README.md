@@ -1,9 +1,9 @@
-# shot-log
+# blue-ledger
 
 Printable **injection log sheets** for Typst: a ruled table with your own columns, a **six-site rotation key**, and a helper that suggests the **least recently used** injection site.
 
 ```typ
-#import "@preview/shot-log:0.1.0": *
+#import "@preview/blue-ledger:0.1.0": *
 
 #shot-log(rows: 12, title: "My weekly shot log")
 #site-key()
